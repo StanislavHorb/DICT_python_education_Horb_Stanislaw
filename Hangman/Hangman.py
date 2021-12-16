@@ -1,7 +1,5 @@
 import random
 
-from past.builtins import raw_input
-
 tries = 8
 
 
@@ -51,7 +49,7 @@ def main():
             print(f'Word: {word}')
 
             break
-        guess = raw_input('please input your letter or word  ')
+        guess = input('please input your letter or word  ')
         guess = guess.upper()
         if len(guess) == 1 or len(guess) == len(word_letter):
             print(tries)
@@ -96,4 +94,3 @@ def start():
 
 
 start()
-
