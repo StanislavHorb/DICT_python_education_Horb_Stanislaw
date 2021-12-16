@@ -1,5 +1,10 @@
 import random
 
+<<<<<<< HEAD
+from past.builtins import raw_input
+
+=======
+>>>>>>> 30ee0c55675368b680681a740a2c064f84e8538a
 tries = 8
 
 
@@ -49,7 +54,11 @@ def main():
             print(f'Word: {word}')
 
             break
+<<<<<<< HEAD
+        guess = raw_input('please input your letter or word  ')
+=======
         guess = input('please input your letter or word  ')
+>>>>>>> 30ee0c55675368b680681a740a2c064f84e8538a
         guess = guess.upper()
         if len(guess) == 1 or len(guess) == len(word_letter):
             print(tries)
@@ -94,3 +103,7 @@ def start():
 
 
 start()
+<<<<<<< HEAD
+
+=======
+>>>>>>> 30ee0c55675368b680681a740a2c064f84e8538a
